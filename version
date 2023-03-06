@@ -1,0 +1,17 @@
+;
+; Version description file for plugin @@ Next Geration CMS
+;
+
+ID: visited
+Name: Посетители сайта
+Version: 0.1
+Acts: index, news
+File: visited.php
+Config: config.php
+Type: plugin
+Description: Отображает пользователей которые сегодня посетили сайт.
+Author: KachalkinGeorg
+Icon: <i class='fa fa-user fa-2x'></i>
+Title: Посетители сайта
+Preinstall: default_no
+Information: Выводит информацию о количестве посетивших сайт пользователей.
