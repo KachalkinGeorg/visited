@@ -8,7 +8,7 @@
 		  <span class="text-muted text-size-small hidden-xs">Выбирете количество пользователей, которые будут отображаться в графе посетители сайта (по умолчанию 5)</span>
 		</td>
         <td class="col-xs-6 col-sm-6 col-md-5">
-			<input type="number" name="save_con[limit]" value="" class="form-control" style="max-width:80px; text-align: center;">
+			<input type="number" name="limit" value="" class="form-control" style="max-width:80px; text-align: center;">
         </td>
       </tr>
       <tr>
@@ -23,6 +23,6 @@
 	</table>
 	</div>
 	<div class="panel-footer" align="center">
-		<button type="submit" class="btn btn-outline-primary">Сохранить</button>
+		<button type="submit" name="submit" class="btn btn-outline-primary">Сохранить</button>
 	</div>
 </form>
